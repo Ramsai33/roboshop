@@ -1,0 +1,5 @@
+- name: creating Jenkins Job
+  connection: localhost
+  hosts: all
+  roles:
+    - "{{jenkins}}"
