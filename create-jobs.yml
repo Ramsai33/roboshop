@@ -2,4 +2,4 @@
   connection: localhost
   hosts: all
   roles:
-    - "{{jenkins}}"
+    - jenkins
