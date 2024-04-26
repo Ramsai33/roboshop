@@ -9,7 +9,7 @@
 
 - name: create pipeline job
   ansible.builtin.include_tasks: pipeline.yml
-  loop: "{{ ci_pipeline_jobs }}"
+  loop: "{{ pipeline_jobs }}"
 
 #- name: Create Folder
 #  community.general.jenkins_job:
