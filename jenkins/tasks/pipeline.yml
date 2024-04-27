@@ -9,7 +9,7 @@
     name: "{{item.dir}}/{{item.name}}"
     url: http://172.31.18.9:8080
     user: admin
-    password: admin123
+    password: "{{jenkins_password}}"
 
 
 #- name: create config
